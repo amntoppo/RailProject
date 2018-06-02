@@ -1,2 +1,11 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<div class="row centered mt-4">
+    <div class="col-md-4 col-md-offset-4 mx-auto">
+        <form method="post" action="/search">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Enter Train Number</label>
+               <input type="number" class="form-control" id="trainno" name="trainno" aria-describedby="TrainNo" placeholder="Enter Train number">
+         </div>
+           <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
